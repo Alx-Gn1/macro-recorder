@@ -71,7 +71,7 @@ function App() {
                   >
                     <td>{file.displayName}</td>
                     <td>{file.durationInSec + " s"}</td>
-                    <td>{file.date.toLocaleString("fr-FR")}</td>
+                    <td>{file.date.toLocaleString()}</td>
                   </tr>
                 ))}
               </tbody>

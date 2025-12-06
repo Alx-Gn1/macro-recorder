@@ -33,7 +33,7 @@ const MacroViewer = ({ fileList, currentSelection, setRefreshApp, refreshApp }: 
                   </tr>
                   <tr>
                     <td>Creation Date</td>
-                    <td>{selectedMacro.date.toLocaleString("fr-FR")}</td>
+                    <td>{selectedMacro.date.toLocaleString()}</td>
                   </tr>
                   <tr>
                     <td>Duration</td>
