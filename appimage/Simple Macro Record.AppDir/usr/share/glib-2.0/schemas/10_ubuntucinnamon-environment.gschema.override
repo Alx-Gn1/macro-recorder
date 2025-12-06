@@ -1,0 +1,122 @@
+[org.cinnamon.desktop.background]
+picture-uri='file:///usr/share/backgrounds/ubuntucinnamon/noble/ubuntu_cinnamon_noble_numbat.jpg'
+
+[org.cinnamon.theme]
+name='Yaru-cinnamon-dark'
+symbolic-relative-size=1
+
+[org.cinnamon.desktop.interface]
+icon-theme='Yaru-cinnamon'
+gtk-theme='Yaru-cinnamon-dark'
+cursor-theme='Yaru'
+clock-show-date=true
+clock-show-seconds=true
+font-name='Ubuntu 11'
+document-font-name='Ubuntu 11'
+monospace-font-name='Ubuntu Mono 11'
+
+[org.nemo.desktop]
+computer-icon-visible=true
+home-icon-visible=true
+trash-icon-visible=true
+volumes-visible=true
+desktop-layout='true:true'
+use-desktop-grid=true
+font='Ubuntu 11'
+
+
+[org.nemo.preferences]
+image-viewers-with-external-sort=['gthumb', 'shotwell', 'eog', 'xviewer', 'feh', 'sxiv']
+sort-directories-first=true
+sort-favorites-first=true
+show-list-view-icon-toolbar=true
+show-location-entry=true
+show-image-thumbnails='local-only'
+thumbnail-limit=uint64 4294967295
+
+#Gedit settings
+[org.gnome.gedit.preferences.editor]
+auto-indent=true
+bracket-matching=true
+display-line-numbers=true
+display-overview-map=true
+display-right-margin=true
+highlight-current-line=true
+scheme='oblivion'
+search-highlighting=true
+syntax-highlighting=true
+tabs-size=uint32 4
+use-default-font=true
+ensure-trailing-newline=true
+max-undo-actions=2000
+
+[org.nemo.window-state]
+sidebar-width=200
+
+[org.cinnamon.desktop.keybindings.media-keys]
+screenreader=['<Alt><Super>s']
+
+[org.cinnamon.desktop.wm.preferences]
+theme='Yaru-cinnamon-dark'
+titlebar-font='Ubuntu Bold 11'
+
+[org.cinnamon]
+app-menu-icon-name='ubuntucinnamon-symbolic'
+app-menu-label='Menu'
+date-format='%a, %h %d %Y%l:%M %p'
+run-dialog-aliases=['<Super>r']
+
+[org.cinnamon.sounds]
+login-file="/usr/share/sounds/Yaru/stereo/desktop-login.oga"
+logout-file="/usr/share/sounds/Yaru/stereo/desktop-logoff.oga"
+notification-file="/usr/share/sounds/Yaru/stereo/message.oga"
+plug-file="/usr/share/sounds/Yaru/stereo/power-plug.oga"
+unplug-file="/usr/share/sounds/Yaru/stereo/power-unplug.oga"
+login-enabled=true
+logout-enabled=true
+notification-enabled=true
+plug-enabled=true
+unplug-enabled=true
+
+[org.cinnamon.desktop.sound]
+event-sounds=true
+input-feedback-sounds=true
+maximum-volume=100
+theme-name="Yaru"
+volume-sound-enabled=true
+volume-sound-file="/usr/share/sounds/Yaru/stereo/audio-volume-change.oga"
+
+[org.gnome.desktop.interface]
+document-font-name='Ubuntu 11'
+monospace-font-name='Ubuntu Mono 11'
+font-name='Ubuntu 11'
+
+[org.gnome.desktop.sound]
+event-sounds=true
+input-feedback-sounds=true
+theme-name="Yaru"
+
+[org.cinnamon.desktop.default-applications.terminal]
+exec='gnome-terminal'
+
+[org.gnome.Terminal.Legacy.Settings]
+theme-variant='dark'
+
+[com.ubuntu.update-notifier:Cinnamon]
+notify-ubuntu-advantage-available=false
+show-livepatch-status-icon=false
+
+
+[org.gnome.desktop.background]
+picture-uri='file:///usr/share/backgrounds/ubuntucinnamon/noble/ubuntu_cinnamon_noble_numbat.jpg'
+picture-uri-dark='file:///usr/share/backgrounds/ubuntucinnamon/noble/ubuntu_cinnamon_noble_numbat.jpg'
+
+[org.gnome.desktop.screensaver]
+picture-uri='file:///usr/share/backgrounds/ubuntucinnamon/noble/ubuntu_cinnamon_noble_numbat.jpg'
+
+[org.gnome.desktop.interface]
+gtk-theme = 'Yaru-cinnamon'
+icon-theme = 'Yaru-cinnamon'
+
+[org.gnome.desktop.background]
+primary-color = '#dd682aff'

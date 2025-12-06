@@ -1,0 +1,9 @@
+[Desktop Entry]
+Categories=
+Comment=A Tauri App
+Exec=tauri_macro_record
+StartupWMClass=tauri_macro_record
+Icon=tauri_macro_record
+Name=Simple Macro Record
+Terminal=false
+Type=Application
